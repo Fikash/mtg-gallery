@@ -6,7 +6,7 @@ const app = express();
 
 
 app.get('/', (req, res) => 
-  res.send('oh hai')
+  res.send('oh look, a new message')
 );
 
 // app.post('', (req, res) => 

@@ -1,12 +1,41 @@
+html {
+  width: 100%;
+  height: 100%
+}
+
 body {
   background: #d8e5f3;
+  padding-top: 100px;
+  width: 100%;
 }
 
 header {
   position: absolute;
+  display: block;
   top: 0;
   left: 0;
   width: 100%;
   height: 100px;
   background-color: #132639;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#app {
+
+  width: 100%;
+  padding-top: 20px
+  /* position: absolute */
+}
+
+#mainImage {
+  display: block;
+  padding-top: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
 }
