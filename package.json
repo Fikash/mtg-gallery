@@ -1,5 +1,5 @@
 {
-  "name": "MagicTheGallery",
+  "name": "magicthegallery",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,10 +12,12 @@
   "scripts": {
     "start": "webpack-dev-server --open"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
