@@ -6,8 +6,12 @@ const app = express();
 
 
 app.get('/', (req, res) => 
-  res.send('oh look, a new message')
+  res.send('./bundle/index_bundle.js')
 );
+
+app.post(
+  
+)
 
 // app.post('', (req, res) => 
 

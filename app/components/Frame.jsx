@@ -12,9 +12,15 @@ class Frame extends Component {
     this.state = {
     randomImg: ''
    };
-  }
+
+   this.fetchCard = this.fetchCard.bind(this);
+  } 
 
   componentDidMount() {
+    this.fetchCard()
+  }
+
+  fetchCard() {
     fetch('https://api.scryfall.com/cards/random')
       .then(res => res.json())
       .then(
@@ -24,18 +30,15 @@ class Frame extends Component {
           })
         }
       )
-
-
   }
 
-
-
   render () {
+    
     return (
-            <div>
-              <img id='mainImage' src={this.state.randomImg}></img>
-              <button>New Image</button>
-            </div>
+          <div>
+            <img id='mainImage' src={this.state.randomImg}></img>
+            <button id='newImage' onClick={this.fetchCard}>New Image</button>
+          </div>
             );
   }
 }

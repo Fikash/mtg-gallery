@@ -5,16 +5,16 @@ require('./index.css');
 import Frame from './components/Frame.jsx';
 
 
-class App extends React.Component {
+// class App extends React.Component {
   
-  render() {
-    return (
-      <div>
-        Solo Bolo
-      </div>
-    )
-  }
-}
+//   render() {
+//     return (
+//       <div>
+//         Solo Bolo
+//       </div>
+//     )
+//   }
+// }
 
 ReactDOM.render(
   <Frame/>,
