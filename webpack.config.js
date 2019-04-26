@@ -14,14 +14,11 @@ module.exports = {
       { test: /\.css$/, use: [ {loader: 'style-loader'} , {loader: 'css-loader'}], exclude: /(node_modules)/ }
     ]
   },
-
   devServer: {
     "port": 8080,
     "proxy": {"/": "http://localhost:3000"}
   },
 
-  
-  
   plugins: [
     new HtmlWebpackPlugin ({ 
       template: 'app/index.html'

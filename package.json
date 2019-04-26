@@ -12,12 +12,16 @@
   "scripts": {
     "start": "webpack-dev-server --open"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
